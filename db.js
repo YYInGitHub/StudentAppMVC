@@ -14,6 +14,7 @@ const db = mysql.createConnection({
 db.connect((err) => {
     if (err) {
         console.error('Error connecting to MySQL database:', err);
+        console.log('Make sure your.env file is correct and try again.');
         return;
     }
     console.log('Connected to MySQL database');
