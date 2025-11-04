@@ -15,7 +15,7 @@ db.connect((err) => {
     if (err) {
         console.error('Error connecting to MySQL database:', err);
         console.log('Make sure your.env file is correct and try again.');
-        console.log('Nice DB Connection ...');
+        console.log('Database Connection ...');
         return;
     }
     console.log('Connected to MySQL database');
